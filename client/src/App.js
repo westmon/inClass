@@ -2,11 +2,10 @@ import React from "react";
 import Books from "./pages/Books";
 import Nav from "./components/Nav";
 
-const App = () => (
+const App = () => 
   <div>
     <Nav />
     <Books />
-  </div>
-);
+  </div>;
 
 export default App;
